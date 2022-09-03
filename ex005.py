@@ -1,0 +1,5 @@
+n = input('Digite algo por gentileza:')
+print("O que foi digitado é um",type(n))
+print("O que foi digitado possui espaço?", n.isspace())
+print('O que foi digitado possui números ?', n.isnumeric())
+print('É alfabético?',n.isalpha())
